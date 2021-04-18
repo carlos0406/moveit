@@ -1,11 +1,14 @@
+import styles from '../styles/githubLink.module.css'
+
 export function GitHubLink() {
 
     return (
-        <div>
-            <strong>Desenvolvidor por:</strong>
-            <p>Carlos Henrique de Andrade Sobrinho</p>
+        <div className={styles.githubLinkContainer}>
             <strong>Disponivel em:</strong>
-            <a href="https://www.w3schools.com" target="_blank">  Salve</a>
+            <a href="https://github.com/carlos0406/moveit" target="_blank">
+                carlos0406/moveit
+                <img src="/icons/githubicon.png" alt="" />
+            </a>
         </div>
     );
 }

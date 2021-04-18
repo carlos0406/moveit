@@ -3,7 +3,8 @@ import { ChallengesContext } from '../contexts/ChallengerContext';
 import { CountdownContext } from '../contexts/CountdownContext';
 import styles from '../styles/challengeBox.module.css'
 export function ChallengeBox() {
-    const { activeChallenge, resetChallenge, completeChallenge } = useContext(ChallengesContext);
+    const { activeChallenge, resetChallenge, completeChallenge }
+        = useContext(ChallengesContext);
     const { resetCountdown } = useContext(CountdownContext);
     function handleChallengeSucceeded() {
         completeChallenge();
@@ -18,9 +19,11 @@ export function ChallengeBox() {
         <div className={styles.challengeBoxContainer}>
             {activeChallenge ? (
                 <div className={styles.challengeActive}>
-                    <header>Ganhe {activeChallenge.amount} de xp</header>
+                    <header>Ganhe {activeChallenge.amount}
+                    de xp</header>
                     <main>
-                        <img src={`icons/${activeChallenge.type}.svg`} />
+                        <img src={`icons/${activeChallenge
+                            .type}.svg`} />
                         <strong>Novo desafio</strong>
                         <p>{activeChallenge.description}</p>
 

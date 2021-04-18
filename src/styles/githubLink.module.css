@@ -1,0 +1,21 @@
+.githubLinkContainer a img{
+    width: 64px;
+    position: relative;
+    top: 10px;
+   
+}
+
+
+
+.githubLinkContainer  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.githubLinkContainer strong{
+    font-weight: 600;
+    
+}

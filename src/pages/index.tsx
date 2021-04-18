@@ -6,7 +6,7 @@ import { CompletedChallenges } from "../components/CompletedChallenges";
 import styles from "../styles/home.module.css";
 import { Countdown } from "../components/Countdown";
 import { ChallengeBox } from "../components/ChallengeBox";
-import { CountdownContext, CountdownProvider } from "../contexts/CountdownContext";
+import { CountdownProvider } from "../contexts/CountdownContext";
 import { ChallengesProvider } from "../contexts/ChallengerContext";
 import { GitHubLink } from "../components/GithubLink";
 
