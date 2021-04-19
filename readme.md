@@ -12,3 +12,22 @@ abra o terminal e vá até o diretorio do projeto e use um dos seguintes comando
  esses comandos só poderam ser executados depois da instalação do yarn ou do node
 
  depois da instalação dos pacotes você podera usar o comando "**yarn dev**" ainda no diretorio do projeto, para que o projeto rode localmente e ele estara disponivél no endereço localhost:3000
+
+# Tecnologias ultilizadas
+### NextJS
+
+### CSS modules
+
+# Fotos do projeto
+### Countdown em adamento
+![Imgur](https://i.imgur.com/bXGM5Jn.png)
+### Finalização do countdown e desafio
+![Imgur](https://i.imgur.com/AEJEXPn.png)
+
+### ao subir de nivel
+![Imgur](https://i.imgur.com/oJL9Vtq.png)
+
+### aplicação em tamanho mobile
+
+![Imgur](https://i.imgur.com/G39Mxoj.png)
+![Imgur](https://i.imgur.com/pXOJqPQ.png)
